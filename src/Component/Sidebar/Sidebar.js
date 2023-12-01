@@ -136,7 +136,175 @@ function Sidebar() {
                 <li  onClick={toggleRummyDropdown} className={styles.ppppd}>
                   <div className={styles.ppp}>
                     <img src="/Image/Sidebar/user.png" alt="Dashboard" />
-                    Teenpatti
+                    Andar Bahar
+                  </div>
+
+                  <div className={styles.ppp}>
+                    {isRummyDropdownOpen ? <ChevronDown /> : <ChevronRight />}
+                  </div>
+
+                </li>
+                {/* Display the dropdown menu when isRummyDropdownOpen is true */}
+                {isRummyDropdownOpen && (
+                  <ul className={styles.dropdownMenu} >
+                    <li>
+                      <Link to="/gamehistory?game=teenpatti" onClick={() => handleClick('Teenpatti/Game History')}>
+                        <li className={styles.dropdowncontent}>
+                          <img src="/Image/Sidebar/user.png" alt="Dashboard" />
+                          Game History
+                        </li>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/setgamelogic?game=teenpatti"  onClick={() => handleClick('Teenpatti/Game Logic')}>
+                        <li className={styles.dropdowncontent}>
+                          <img src="/Image/Sidebar/user.png" alt="Dashboard" />
+                          Set game logic
+                        </li>
+                      </Link>
+                    </li>
+
+                  </ul>
+                )}
+              </li>
+
+            </ul>
+          )}
+          {isDropdownOpen && (
+            <ul className={styles.dropdownMenu}>
+              {/* *************rummy******************************* */}
+
+              <li className={isRummyDropdownOpen ? styles.dropdownToggle : ''}>
+                <li  onClick={toggleRummyDropdown} className={styles.ppppd}>
+                  <div className={styles.ppp}>
+                    <img src="/Image/Sidebar/user.png" alt="Dashboard" />
+                    Sorat
+                  </div>
+
+                  <div className={styles.ppp}>
+                    {isRummyDropdownOpen ? <ChevronDown /> : <ChevronRight />}
+                  </div>
+
+                </li>
+                {/* Display the dropdown menu when isRummyDropdownOpen is true */}
+                {isRummyDropdownOpen && (
+                  <ul className={styles.dropdownMenu} >
+                    <li>
+                      <Link to="/gamehistory?game=teenpatti" onClick={() => handleClick('Teenpatti/Game History')}>
+                        <li className={styles.dropdowncontent}>
+                          <img src="/Image/Sidebar/user.png" alt="Dashboard" />
+                          Game History
+                        </li>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/setgamelogic?game=teenpatti"  onClick={() => handleClick('Teenpatti/Game Logic')}>
+                        <li className={styles.dropdowncontent}>
+                          <img src="/Image/Sidebar/user.png" alt="Dashboard" />
+                          Set game logic
+                        </li>
+                      </Link>
+                    </li>
+
+                  </ul>
+                )}
+              </li>
+
+            </ul>
+          )}
+          {isDropdownOpen && (
+            <ul className={styles.dropdownMenu}>
+              {/* *************rummy******************************* */}
+
+              <li className={isRummyDropdownOpen ? styles.dropdownToggle : ''}>
+                <li  onClick={toggleRummyDropdown} className={styles.ppppd}>
+                  <div className={styles.ppp}>
+                    <img src="/Image/Sidebar/user.png" alt="Dashboard" />
+                    1 to 12
+                  </div>
+
+                  <div className={styles.ppp}>
+                    {isRummyDropdownOpen ? <ChevronDown /> : <ChevronRight />}
+                  </div>
+
+                </li>
+                {/* Display the dropdown menu when isRummyDropdownOpen is true */}
+                {isRummyDropdownOpen && (
+                  <ul className={styles.dropdownMenu} >
+                    <li>
+                      <Link to="/gamehistory?game=teenpatti" onClick={() => handleClick('Teenpatti/Game History')}>
+                        <li className={styles.dropdowncontent}>
+                          <img src="/Image/Sidebar/user.png" alt="Dashboard" />
+                          Game History
+                        </li>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/setgamelogic?game=teenpatti"  onClick={() => handleClick('Teenpatti/Game Logic')}>
+                        <li className={styles.dropdowncontent}>
+                          <img src="/Image/Sidebar/user.png" alt="Dashboard" />
+                          Set game logic
+                        </li>
+                      </Link>
+                    </li>
+
+                  </ul>
+                )}
+              </li>
+
+            </ul>
+          )}
+          {isDropdownOpen && (
+            <ul className={styles.dropdownMenu}>
+              {/* *************rummy******************************* */}
+
+              <li className={isRummyDropdownOpen ? styles.dropdownToggle : ''}>
+                <li  onClick={toggleRummyDropdown} className={styles.ppppd}>
+                  <div className={styles.ppp}>
+                    <img src="/Image/Sidebar/user.png" alt="Dashboard" />
+                    roulette
+                  </div>
+
+                  <div className={styles.ppp}>
+                    {isRummyDropdownOpen ? <ChevronDown /> : <ChevronRight />}
+                  </div>
+
+                </li>
+                {/* Display the dropdown menu when isRummyDropdownOpen is true */}
+                {isRummyDropdownOpen && (
+                  <ul className={styles.dropdownMenu} >
+                    <li>
+                      <Link to="/gamehistory?game=teenpatti" onClick={() => handleClick('Teenpatti/Game History')}>
+                        <li className={styles.dropdowncontent}>
+                          <img src="/Image/Sidebar/user.png" alt="Dashboard" />
+                          Game History
+                        </li>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/setgamelogic?game=teenpatti"  onClick={() => handleClick('Teenpatti/Game Logic')}>
+                        <li className={styles.dropdowncontent}>
+                          <img src="/Image/Sidebar/user.png" alt="Dashboard" />
+                          Set game logic
+                        </li>
+                      </Link>
+                    </li>
+
+                  </ul>
+                )}
+              </li>
+
+            </ul>
+          )}
+          {isDropdownOpen && (
+            <ul className={styles.dropdownMenu}>
+              {/* *************rummy******************************* */}
+
+              <li className={isRummyDropdownOpen ? styles.dropdownToggle : ''}>
+                <li  onClick={toggleRummyDropdown} className={styles.ppppd}>
+                  <div className={styles.ppp}>
+                    <img src="/Image/Sidebar/user.png" alt="Dashboard" />
+                    Spinner Game
                   </div>
 
                   <div className={styles.ppp}>
