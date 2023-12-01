@@ -1,0 +1,131 @@
+/* PlayerManagement.module.css */
+
+.player-management-container {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    background-color: #fff;
+    /* border: 2px solid red; */
+  }
+  .playermanage{
+    color: rgb(5, 1, 1);
+    
+  }
+
+  .addbtn{
+    color: rgb(5, 1, 1);
+    font-size: 0.9375rem;
+    margin-left:1rem;
+    background-color: #15ff00;
+    border-radius: 15px;  
+    
+  }
+
+  .resetbtn{
+    color: rgb(243, 239, 239);
+    margin-left:1rem;
+
+    font-size: 0.9375rem;
+    border-radius: 15px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+  }
+  
+  thead th {
+    background-color:#979494;
+    border-bottom: 2px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    font-size: 0.9375rem
+  }
+  
+  .row-odd { 
+    background-color: #ccc;
+  }
+
+  tbody td {
+    color: rgb(10, 7, 7);
+    font-size: 0.9375rem;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Style for active users */
+  .active {
+    color: green;
+  }
+  
+  /* Style for blocked users */
+  .blocked {
+    color: red;
+  }
+  
+  /* Style for action buttons */
+  .action-button1 {
+    margin: 1px;
+    background-color: white;
+    color: white;
+    border: none;
+   
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .action-button1:hover {
+    background-color: white;
+  }
+  .action-button2 {
+    margin: 1px;
+    background-color: white;
+    color: white;
+    border: none;
+   
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .action-button2:hover {
+    background-color: white;
+  }
+
+
+
+  .pagination{
+    color: rgb(7, 5, 5);
+    padding-top: 10px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+
+  .filters{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    font-size: 0.9375rem;
+   
+  
+  }
+  .filters input{
+    width: 200px;
+    padding: 10px;
+    font-size: 0.9375rem;
+    border-radius: 15px;
+  }
+  .actionButtonIcon{
+    width: 15px;
+    height: 15px;
+  }
+
+
+
+
+
+  
+ 
+ 

@@ -1,0 +1,66 @@
+.registrationForm {
+
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #202020;
+   
+  }
+  .rowwise{
+    padding: 5px;
+  }
+  .inputGroup {
+    width: 45%;   
+  }
+  .inputGroup option{
+    font-size: 16px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+  }
+  
+  .inputGroup input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .inputGroup select{
+    width:105% ;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  .rowwise{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+  }
+
+
+  .PlayerRegistration{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    padding: 0px 10px;
+
+  }
+  

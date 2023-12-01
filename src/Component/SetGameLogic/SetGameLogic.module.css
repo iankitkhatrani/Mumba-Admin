@@ -1,0 +1,47 @@
+.container {
+    /* width: 100%; */
+    text-align: start;
+    padding: 20px;
+    margin: 20px;
+    background-color: #202020;
+    color: white;
+    box-shadow: 0 2px 4px rgba(197, 9, 9, 0.2); /* Add shadow */
+   
+  }
+  
+  .radioGroup {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .radioOption {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin: 10px;
+  }
+  .radioOption input{
+    width: 30px;
+    height: 30px;
+  }
+  .radioOption label{
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+ 
+  
+  .submitButton {
+    margin-top: 30px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .submitButton:hover {
+    background-color: #0056b3;
+  }
+  

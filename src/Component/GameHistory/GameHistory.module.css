@@ -1,0 +1,105 @@
+/* GameHistory.module.css */
+
+.gameHistory {
+    font-family: Arial, sans-serif;
+    padding: 10px 20px;
+    background-color: #fff;
+
+}
+
+.gameHistory h1 {
+    color: white;
+}
+
+
+.historyTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tableHeader {
+    background-color: #979494;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    font-size: 0.9375rem
+}
+
+  
+.row-odd { 
+    background-color: #ccc;
+  }
+
+.tableData {
+    padding: 10px;
+    font-size: 0.9375rem
+    /* border: 1px solid #ddd; */
+}
+
+.filtersdrop {
+    padding-bottom: 20px;
+}
+
+.filtersdrop div {
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+.filtersdrop select {
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    padding-left: 2px;
+}
+
+.filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.filtersactions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+
+}
+
+.filterPerpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 20px;
+    color: white;
+    gap: 5px;
+}
+
+.filterPerpage input {
+    height: 30px;
+    width: 60px;
+}
+
+.filterButton {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+}
+
+.filterssearch {
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+.pagination{
+    padding-top: 10px;
+    color: white;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}

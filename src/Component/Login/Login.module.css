@@ -1,0 +1,69 @@
+/* Login.module.css */
+.layout{
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.loginContainer {
+    max-width: 300px;
+    margin: auto auto;
+    padding: 2% 3% 2% 2%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: left;
+    align-items: left;
+  }
+  
+  loginlebel {
+    display: block;
+    margin-bottom: 8px;
+    color:black
+  }
+  
+  input[type="text"]
+    {
+    width: 96%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+
+  }
+
+  input[type="password"]
+    {
+    width: 96%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+
+  }
+
+  input[type="email"]
+  {
+  width: 96%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+
+}
+
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

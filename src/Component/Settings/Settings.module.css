@@ -1,0 +1,63 @@
+/* SettingsPage.module.css */
+
+.settingsPage {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+
+  /* border: 2px solid red; */
+  margin: 20px 20px;
+  padding: 0px 20px;
+  background-color:  #202020;
+  border-radius: 3px;
+}
+
+.form {
+  width: 100%;
+
+
+}
+
+h2 {
+  /* text-align: center; */
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.formRow {
+  display: flex;
+  justify-content: space-between;
+  /* margin-bottom: 20px; */
+  gap: 20px;
+}
+
+.inputGroup {
+  flex: 1;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.fileInput {
+  margin-top: 20px;
+}
+.apk{
+  width: 100%;
+color: white;
+font-size: 16px;
+}
+
+.saveButton {
+  /* display: block; */
+  margin: 20px auto;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}

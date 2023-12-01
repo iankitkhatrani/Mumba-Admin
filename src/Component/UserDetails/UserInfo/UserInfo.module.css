@@ -1,0 +1,202 @@
+.userInfo {
+    width: 100%;
+  
+    border-radius: 4px;
+    background-color: #202020;
+    color: white;
+  }
+  .userInfoTop{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px  solid rgb(45, 44, 44);
+  }
+  .userImage img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  .nameInfo{
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .userinfoall{
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .userInfoDetails {
+    width: 100%;
+
+  }
+
+  .userInfoRow {
+    display: flex;
+    justify-content: space-between;
+  
+    padding: 15px 10px;
+    border-bottom: 1px  solid rgb(45, 44, 44);
+  }
+  .infoLabel{
+    align-items: start;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .infoValue {
+   align-items:end;
+  }
+  .statusUserInfoRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+    border-bottom: 1px  solid rgb(45, 44, 44);
+  }
+  .statusinfoValue{
+
+    background-color: #1a6540;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+  }
+.ReferraluserInfoRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+    border-bottom: 1px  solid rgb(45, 44, 44);
+}
+.ReferralinfoValue{
+ 
+    background-color: #0056b3;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+.CouponsuserInfoRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+    border-bottom: 1px  solid rgb(45, 44, 44);
+}
+.CouponsinfoValue{
+
+    background-color: #0056b3;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+
+
+
+
+  
+  .userInfoActions {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 10px;
+    padding: 10px;
+  }
+  .AddactionButton{
+    width: calc(33.33% - 10px);
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .DeductactionButton{
+    width: calc(33.33% - 10px);
+    padding: 10px;
+    background-color: #b82142;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .kycButton {
+    width: calc(33.33% - 10px);
+    padding: 10px;
+    background-color: #d5c80e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+margin-bottom: 10px;
+  }
+  
+
+
+
+
+  
+
+.DeviceDeviceInfo{
+    border-top: 6px solid rgb(45, 66, 157);
+    padding: 15px 10px;
+    font-size: 20px;
+    font-weight: 400;
+    border-bottom: 1px  solid rgb(45, 44, 44);
+}
+.DeviceInfobody{
+    padding: 10px 10px;
+
+}
+.DeviceInfKey{
+    font-size: 16px;
+    font-weight: 500;
+}
+.DeviceInfoValue{
+    font-size: 14px;
+    font-weight: 500;
+    color: #979494;
+}
+
+
+.popup-content {
+  width: 200px;
+  height: 100px;
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.popup-style {
+  font-family: 'Arial', sans-serif;
+  background-color: #2C3E50;
+  color: #ECF0F1;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,172 @@
+/* Sidebar.module.css */
+.sidebar {
+    background-color:#0d0d19;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+  }
+  
+  .active{
+    background-color:white;
+    color: rgb(151, 33, 33);
+  }
+  
+  .logo {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+  }
+  
+  .logo img {
+    padding-top: 18px;
+    width: 200px;
+    
+  }
+  
+  .adminInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+    /* border-top: 1px solid #fff; */
+    /* border-bottom: 1px solid #df0a0a; */
+    cursor: pointer;
+    margin: 15px;
+    border-radius: 10px;
+    border: 2px solid white;
+    position: relative;
+  }
+  .adminInfoleft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .adminInfo img {
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .AdmindropdownMenu{
+    position: absolute;
+    padding: 0px;
+    left: 116px;
+    width: 64px;
+    border: 2px solid red;
+    background-color: red;
+  }
+  .mainmenu{
+    padding: 10px 20px;
+    font-size: 14px;
+    
+  }
+  .navList {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+ 
+  .pppp{
+    padding: 15px 10px;
+    display: flex;
+    align-items: center;
+  
+    /* padding: 10px; */
+
+  }
+
+ 
+
+  .GameMode{
+    padding: 15px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .GameMode:hover{
+    background-color:white;
+    color: rgb(33, 151, 33);
+  }
+  .ppppd{
+    padding: 15px 10px 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 10px; */
+    /* border: 2px solid red; */
+  
+  }
+  .ppppd:hover{
+    background-color:white;
+    color: rgb(33, 151, 33);
+  }
+  .dropdownToggleFalse:hover{
+    background-color:white;
+    color: rgb(33, 151, 33);
+
+  }
+  /* .dropdownToggle{
+    background-color: red !important;
+  } */
+ 
+  .ppp{
+    display: flex;
+    align-items: center;
+  }
+
+  .navList{
+    padding: 7px 0px;
+  
+    text-decoration: none;
+  }
+  .navlistLi :hover{
+   
+    background-color:white;
+    color: rgb(33, 151, 33);
+  }
+
+  
+  .navList li img {
+    width: 20px; /* Adjust the width and height as needed */
+    height: 20px;
+    margin-right: 8px; /* Adjust the margin as needed */
+
+  }
+  .navList Link{
+    cursor: pointer;
+  }
+  
+  /* Remove text decoration from links */
+  .navList li a {
+    text-decoration: none;
+    color: inherit; /* Inherit the color from the parent element */
+  }
+
+  /* .dropdownToggle{
+    background-color: #2dad10;
+    border: 2px solid red;
+
+  } */
+  .dropdownMenu{
+    list-style: none;
+    /* border: 2px solid green; */
+    padding-left: 0px;
+
+  }
+  .dropdowncontent{
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    /* border: 2px solid green; */
+    padding-left: 35px;
+  }
+  .dropdowncontent:hover{
+    background-color:white;
+    color: rgb(33, 151, 33);
+  }

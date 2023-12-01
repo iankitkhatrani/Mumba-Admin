@@ -1,0 +1,97 @@
+/* NoticeText.module.css */
+
+.noticeTextContainer {
+  background-color:  #0d0d19;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.addNoticeContainer {
+  margin-bottom: 20px;
+}
+
+.inputField {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  background-color: #202020;
+  color: white;
+}
+
+.textArea {
+  width: 96%;
+  height: 100px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  background-color: #202020;
+  color: white;
+}
+
+.addButton {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.addButton:hover {
+  background-color: #0056b3;
+}
+
+.noticeTextTitle {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.noticeList{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.noticeItem {
+  background-color: #202020;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.noticeTitle {
+  font-size: 20px;
+  margin: 0;
+  color: #007BFF;
+}
+
+.noticeContent {
+  font-size: 16px;
+  color: white;
+}
+
+.noticeDate {
+  font-size: 14px;
+  color: #888;
+}
+
+.deleteButton {
+  background-color: #f00;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.deleteButton:hover {
+  background-color: #c00;
+}
