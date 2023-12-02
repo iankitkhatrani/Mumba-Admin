@@ -4,7 +4,7 @@ import styles from './Login.module.css'; // Import CSS module
 import Cookies from 'universal-cookie';
 const cookies = new Cookies();
 
-const host = "http://192.168.0.203:2828";
+const host = "http://16.170.158.18:3000";
 
 
 
@@ -12,6 +12,7 @@ function Login(props) {
   const [formData, setFormData] = useState({
     email: '',
     password: '',
+    logintype:''
   });
 
   const handleChange = (e) => {
@@ -43,12 +44,26 @@ function Login(props) {
   } 
 
 
+  const OnChange = async (event) => {
+    let { name, value } = event.target;
+    console.log("name ",name)
+    console.log("name ",value)
+
+    await setFormData({
+        ...formData,
+        [name]: value,
+    });
+
+    console.log("handleChange ::::::::::::::::::::::",formData)
+};
+
+
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
     let resData = await LoginData(formData)
-    console.log(resData.status)
+    console.log(resData)
 
     if(resData.status){
       
@@ -89,6 +104,43 @@ function Login(props) {
           onChange={handleChange}
           required
         />
+
+        <div className={styles.rowwise}>
+                    
+       
+        <label>
+            <input
+            type="radio"
+            value="Admin"
+            name="logintype"
+            checked={formData.logintype === "Admin"}
+            onChange={OnChange}
+            />
+            Admin
+        </label>
+        <label>
+            <input
+            type="radio"
+            value="Agent"
+            name="logintype"
+            checked={formData.logintype === "Agent"}
+            onChange={OnChange}
+            />
+            Agent
+        </label>
+        <label>
+            <input
+            type="radio"
+            value="Shop"
+            name="logintype"
+            checked={formData.logintype === "Shop"}
+            onChange={OnChange}
+            />
+            Shop
+        </label>
+        </div>
+                    
+
         <button type="submit">Login</button>
       </form>
     </div>
