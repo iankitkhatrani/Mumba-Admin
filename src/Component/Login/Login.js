@@ -4,7 +4,7 @@ import styles from './Login.module.css'; // Import CSS module
 import Cookies from 'universal-cookie';
 const cookies = new Cookies();
 
-const host = "http://16.170.158.18:3000";
+const host = "http://13.50.221.113:3000";
 
 
 
